@@ -1,33 +1,84 @@
 :root {
-    --splash-color: #005AE2;
-    --white: #ffffff;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: var(--white);
-    display: flexbox;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+  --splash-color: #005ae2;
+  --white: #ffffff;
 }
 
 /* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+  width: 100%;
+}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
-    background-color: var(--splash-color);
-    color: var(--white);
-    border: none;
+  cursor: pointer;
+  background-color: var(--splash-color);
+  color: var(--white);
+  border: none;
 }
+
 .blue-highlight {
-    color: var(--splash-color);
+  color: var(--splash-color);
+}
+
+/* Hero Frame Style */
+.hero-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* About Frame Style */
+.about-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* subscription-plans-frame Style */
+.subscription-plans-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* shortener-test-frame */
+.shortener-test-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* faq-frame */
+.faq-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* get-started-frame */
+.get-started-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* footer-frame */
+.footer-frame {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
 }
