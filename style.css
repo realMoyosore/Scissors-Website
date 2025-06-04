@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: var(--white);
   width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -43,6 +44,9 @@ button {
   height: 100vh;
 }
 
+.header-section {
+  display: flex-grid;
+}
 /* subscription-plans-frame Style */
 .subscription-plans-frame {
   display: grid;
