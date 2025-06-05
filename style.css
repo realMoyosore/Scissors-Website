@@ -1,6 +1,6 @@
 :root {
-  --splash-color: #005ae2;
-  --white: #ffffff;
+  --blue: #005ae2;
+  --white: #fff;
 }
 
 /* General styles */
@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: var(--white);
+  color: #333;
   width: 100%;
   overflow-x: hidden;
 }
@@ -17,24 +18,106 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 button {
   cursor: pointer;
-  background-color: var(--splash-color);
+  background-color: var(--blue);
   color: var(--white);
   border: none;
 }
 
 .blue-highlight {
-  color: var(--splash-color);
+  color: var(--blue);
 }
 
 /* Hero Frame Style */
 .hero-frame {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+} */
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+li a:hover {
+  color: var(--blue);
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}
+
+.dropdown-arrow:hover {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.header-account {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-account a {
+  color: var(--blue);
+}
+.header-account a:hover {
+  text-decoration: underline;
+}
+
+.header-account button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About Frame Style */
 .about-frame {
