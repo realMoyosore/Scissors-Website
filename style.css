@@ -57,7 +57,7 @@ button:hover {
 
 /* Hero Frame Style */
 .hero-frame {
-  max-width: 100vh;
+  max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
@@ -68,12 +68,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-}
-
-header .header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 ul {
@@ -132,6 +126,13 @@ li a:hover {
   margin-top: 0;
 }
 
+#brush-mark {
+  position: absolute;
+  top: 220px;
+  left: 640px;
+  z-index: -1;
+}
+
 #hero-subheading {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -188,19 +189,25 @@ li a:hover {
 
 #hero-svg-1 {
   position: absolute;
-  top: 500px;
-  left: 250px;
-  /* width: 100%;
-  height: auto; */
+  top: 465px;
+  left: 335px;
   z-index: -1;
 }
 
 #hero-svg-2 {
   position: absolute;
-  bottom: -100px;
-  width: 100vh
-  z-index: 0;
+  bottom: -120px;
+  right: 500px;
+  width: 100vh;
 }
+
+
+
+
+
+
+
+
 
 
 
