@@ -61,6 +61,7 @@ button:hover {
   height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 header {
@@ -100,6 +101,7 @@ li a:hover {
   color: var(--blue);
   margin-right: 10px;
 }
+
 .header-account a:hover {
   border-radius: 25px;
   padding: 10px 40px;
@@ -166,7 +168,7 @@ li a:hover {
 }
 
 .hero-graphic-section {
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 
@@ -197,18 +199,16 @@ li a:hover {
 #hero-svg-2 {
   position: absolute;
   bottom: -120px;
-  right: 500px;
-  width: 100vh;
+  right: 0;
+  width: 100%;
 }
 
 /* About Frame Style */
 .about-frame {
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
   max-width: 1440px;
   margin: 0 auto;
   height: 982px;
+  box-sizing: border-box;
 }
 
 .about-frame-header {
@@ -232,16 +232,12 @@ li a:hover {
 
 .statistics {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
   gap: 100px;
   flex-wrap: wrap;
   flex-basis: 60%;
 }
 
 .statistics-item {
-  /* flex: 1;
-  min-width: 200px; Ensures items don't get too small */
   text-align: left;
 }
 
@@ -265,7 +261,7 @@ li a:hover {
 }
 
 .why-section {
-  flex-basis: 25%; /* Ensures the section takes up 30% of the width */
+  flex-basis: 25%; /* Ensures the section takes up 25% of the width */
   min-width: 280px;
 }
 
@@ -292,8 +288,6 @@ li a:hover {
 }
 
 .about-frame-item-icon {
-  /* width: 50px;
-  height: 50px; */
   margin-bottom: 30px;
 }
 
@@ -306,8 +300,27 @@ li a:hover {
   display: grid;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  height: 1073px;
+  box-sizing: border-box;
+  padding: 20px;
 }
+
+.subscription-plan-container {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* shortener-test-frame */
 .shortener-test-frame {
