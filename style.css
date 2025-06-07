@@ -171,7 +171,7 @@ li a:hover {
 }
 
 .hero-graphic-card {
-  background-color: #f9f9f9; /* Light grey background */
+  background-color: #f9f9f9;
   border: 1px solid #e0e0e0;
   border-radius: 24px;
   padding: 30px 40px;
@@ -214,15 +214,37 @@ li a:hover {
 
 /* About Frame Style */
 .about-frame {
-  display: grid;
+  /* display: grid;
   justify-content: center;
-  align-content: center;
-  height: 100vh;
+  align-items: center; */
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 982px;
+}
+.about-frame-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  padding: 50px 0;
+  margin-bottom: 50px;
 }
 
-.header-section {
-  display: flex-grid;
+.one-stop h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  ;
+
 }
+
+
+
+
+
+
+
+
 /* subscription-plans-frame Style */
 .subscription-plans-frame {
   display: grid;
