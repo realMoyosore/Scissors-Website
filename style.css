@@ -201,17 +201,6 @@ li a:hover {
   width: 100vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* About Frame Style */
 .about-frame {
   /* display: grid;
@@ -221,6 +210,7 @@ li a:hover {
   margin: 0 auto;
   height: 982px;
 }
+
 .about-frame-header {
   display: flex;
   justify-content: space-between;
@@ -230,20 +220,86 @@ li a:hover {
   margin-bottom: 50px;
 }
 
-.one-stop h1 {
-  font-size: 3rem;
+.one-stop {
   margin-bottom: 20px;
-  line-height: 1.5;
-  ;
-
 }
 
+.one-stop h1 {
+  font-size: 3rem;
+  margin: 10px;
+  padding: 10px 0;
+}
 
+.statistics {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  gap: 100px;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+}
 
+.statistics-item {
+  /* flex: 1;
+  min-width: 200px; Ensures items don't get too small */
+  text-align: left;
+}
 
+.statistics-figure {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
 
+.statistics-text {
+  font-size: 1rem;
+}
 
+.about-frame-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
 
+.why-section {
+  flex-basis: 25%; /* Ensures the section takes up 30% of the width */
+  min-width: 280px;
+}
+
+.why-section h2 {
+  font-size: 2.2rem;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.regular-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-frame-grid {
+  flex-basis: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+}
+
+.about-frame-item {
+  text-align: left;
+}
+
+.about-frame-item-icon {
+  /* width: 50px;
+  height: 50px; */
+  margin-bottom: 30px;
+}
+
+.about-frame-item h3 {
+  font-size: 2rem;
+}
 
 /* subscription-plans-frame Style */
 .subscription-plans-frame {
