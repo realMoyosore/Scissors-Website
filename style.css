@@ -330,6 +330,28 @@ li a:hover {
   line-height: 1.6;
 } */
 
+.subscription-plan-body-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.subscription-plan-card {
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  text-align: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.subscription-plan-card-pro {
+  background-color: #1E3448;
+  border-radius: 10px;
+   
+}
 
 
 
