@@ -439,11 +439,53 @@ li a:hover {
 .shortener-card {
   background-color: var(--white);
   border-radius: 12px;
-  width: 476px;
+  width: 100%;
+  max-width: 500px;
   height: 355px;
-  margin-top: 50px;
+  margin: 50px 0;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
 }
+
+#url-input, .domain-select, #alias-input {
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid var(--blue);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: var(--blue);
+}
+
+#url-input:focus, .domain-select:focus, #alias-input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 3px rgba(0, 90, 226, 0.15);
+}
+
+.option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 25px 0;
+  gap: 25px;
+}
+
+#url-input::placeholder, #alias-input::placeholder {
+  color: var(--blue);
+}
+
+.domain-select {
+  cursor: pointer;
+
+}
+
+
+
+#shorten-button {
+  width: 392px;
+}
+
+
 
 
 

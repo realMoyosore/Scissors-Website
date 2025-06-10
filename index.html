@@ -1070,12 +1070,17 @@
 
         <div class="shortener-card">
           <input type="text" placeholder="Paste URL here..." id="url-input" />
-                              <select class="domain-select">
-                        <option value="" disabled selected>Choose Domain</option>
-                        <option value="This Domain">This Domain</option>
-                        <option value="That Domain">That Domain</option>
-                    </select>
-          <input type="text" placeholder="Type alias here" id="alias-input" />
+          <div class="option-grid">
+            <div class="option-span">
+              <select class="domain-select">
+                <option value="" disabled selected>Choose Domain</option>
+                <option value="This Domain">This Domain</option>
+                <option value="That Domain">That Domain</option>
+              </select>
+            </div>
+
+            <input type="text" placeholder="Type alias here" id="alias-input" />
+          </div>
           <button id="shorten-button">
             TRIM URL
             <svg
