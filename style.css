@@ -424,12 +424,41 @@ li a:hover {
 
 /* shortener-test-frame */
 .shortener-test-frame {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-content: center;
   height: 523px;
   background-color: #1E3448;
 }
+
+/* .shortener-test-frame svg {
+  width: 100%;
+  height: 100%;
+} */
+
+.shortener-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  width: 476px;
+  height: 355px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* faq-frame */
 .faq-frame {
