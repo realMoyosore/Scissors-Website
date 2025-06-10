@@ -30,6 +30,8 @@ p {
 a {
   text-decoration: none;
   font-family: "Gilroy-Semibold", sans-serif;
+  font-weight: 500;
+  color: #000
 }
 
 ul {
@@ -96,6 +98,10 @@ li {
 }
 
 li a:hover {
+  color: var(--blue);
+}
+
+#my-urls-link {
   color: var(--blue);
 }
 
@@ -426,7 +432,7 @@ li a:hover {
 .shortener-test-frame {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   height: 523px;
   background-color: #1E3448;
 }
@@ -441,7 +447,8 @@ li a:hover {
   border-radius: 12px;
   width: 100%;
   max-width: 500px;
-  height: 355px;
+  height: 100%;
+  max-height: 355px;
   margin: 50px 0;
   padding: 40px 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -476,13 +483,22 @@ li a:hover {
 
 .domain-select {
   cursor: pointer;
-
 }
 
-
-
 #shorten-button {
-  width: 392px;
+  width: 100%;
+}
+
+.policy {
+  font-size: 0.9rem;
+  padding: 10px 50px 0 10px;
+  line-height: 1.5;
+  color: var(--blue);
+}
+
+.policy a {
+  color: var(--blue);
+  font-weight: 600;
 }
 
 
