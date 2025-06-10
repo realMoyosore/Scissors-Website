@@ -44,12 +44,26 @@ button {
   color: var(--white);
   border: none;
   padding: 12px 50px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
   background-color: var(--white);
   color: var(--blue);
   border: 1px solid var(--blue);
+}
+
+.transparent-btn {
+  background-color: transparent;
+  color: var(--blue);
+  border: none;
+}
+
+.transparent-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  border-radius: 25px;
 }
 
 .blue-highlight {
@@ -145,16 +159,6 @@ li a:hover {
   margin-bottom: 50px;
 }
 
-#signup-button {
-  margin-right: 30px;
-  border-radius: 25px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-#signup-button:hover {
-  background-color: var(--white);
-  color: var(--blue);
-  border: 3px solid var(--blue);
-}
 #learn-more-link {
   color: var(--blue);
   margin-left: 30px;
@@ -417,8 +421,6 @@ li a:hover {
   color: var(--white);
   border: none;
 }
-
-
 
 /* shortener-test-frame */
 .shortener-test-frame {
