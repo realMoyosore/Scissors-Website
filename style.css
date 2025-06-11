@@ -509,6 +509,13 @@ li a:hover {
   height: 1153px;
 }
 
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
 .faq-item {
   border-bottom: 1px solid #e0e0e0;
 }
