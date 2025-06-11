@@ -526,9 +526,35 @@ li a:hover {
 
 .faq-toggle {
   font-size: 1.5rem;
-
-
+  line-height: 1;
+  transform: transform 0.3s ease;
 }
+
+.faq-toggle::before { /*This */
+  content: '+';
+  color: #000;
+}
+
+
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.faq-answer p {
+    margin: 0;
+    padding-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1rem;
+}
+
+
+
+
+
 
 
 
