@@ -31,7 +31,7 @@ a {
   text-decoration: none;
   font-family: "Gilroy-Semibold", sans-serif;
   font-weight: 500;
-  color: #000
+  color: #000;
 }
 
 ul {
@@ -434,13 +434,8 @@ li a:hover {
   justify-content: space-between;
   align-items: center;
   height: 523px;
-  background-color: #1E3448;
+  background-color: #1e3448;
 }
-
-/* .shortener-test-frame svg {
-  width: 100%;
-  height: 100%;
-} */
 
 .shortener-card {
   background-color: var(--white);
@@ -455,7 +450,9 @@ li a:hover {
   box-sizing: border-box;
 }
 
-#url-input, .domain-select, #alias-input {
+#url-input,
+.domain-select,
+#alias-input {
   width: 100%;
   padding: 15px 5px;
   border: 1px solid var(--blue);
@@ -464,7 +461,9 @@ li a:hover {
   color: var(--blue);
 }
 
-#url-input:focus, .domain-select:focus, #alias-input:focus {
+#url-input:focus,
+.domain-select:focus,
+#alias-input:focus {
   outline: none;
   border: none;
   box-shadow: 0 0 0 3px rgba(0, 90, 226, 0.15);
@@ -477,7 +476,8 @@ li a:hover {
   gap: 25px;
 }
 
-#url-input::placeholder, #alias-input::placeholder {
+#url-input::placeholder,
+#alias-input::placeholder {
   color: var(--blue);
 }
 
@@ -501,30 +501,19 @@ li a:hover {
   font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* faq-frame */
 .faq-frame {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1153px;
 }
+
+
+
+
+
+
 
 /* get-started-frame */
 .get-started-frame {
