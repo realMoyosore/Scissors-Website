@@ -509,6 +509,27 @@ li a:hover {
   height: 1153px;
 }
 
+.faq-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.faq-toggle {
+  font-size: 1.5rem;
+
+
+}
+
 
 
 
