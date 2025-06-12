@@ -560,15 +560,27 @@ li a:hover {
   align-items: center;
   height: 299px;
   background-color: #1E3448;
+  padding: auto 0;
 }
 
 .get-started-frame svg {
   height: 299px;
 }
 
-.get-started-banner {
+.get-started-card {
   color: var(--white);
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
 }
+
+.get-started-card h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+
 
 /* footer-frame */
 .footer-frame {
