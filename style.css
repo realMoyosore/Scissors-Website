@@ -553,21 +553,12 @@ li a:hover {
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
 /* get-started-frame */
 .get-started-frame {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 299px;
 }
 
 /* footer-frame */
