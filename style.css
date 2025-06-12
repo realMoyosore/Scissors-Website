@@ -511,6 +511,10 @@ li a:hover {
   height: 1153px;
 }
 
+.faq-frame {
+  height: 1153px;
+}
+
 .faq-section {
   max-width: 800px;
   margin: 0 auto;
@@ -590,8 +594,15 @@ li a:hover {
 
 /* footer-frame */
 .footer-frame {
-  display: flex;
+  display: grid;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   height: 561px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
 }
