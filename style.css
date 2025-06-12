@@ -45,26 +45,28 @@ button {
   background-color: var(--blue);
   color: var(--white);
   border: none;
+  font-weight: 600;
   padding: 12px 50px;
   border-radius: 25px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-  background-color: var(--white);
+  background-color: transparent;
   color: var(--blue);
-  border: 1px solid var(--blue);
+  border: 3px solid var(--blue);
 }
 
 .transparent-btn {
   background-color: transparent;
   color: var(--blue);
   border: none;
+  font-weight: 600;
 }
 
 .transparent-btn:hover {
   background-color: var(--white);
-  border: 1px solid var(--blue);
+  border: 3px solid var(--blue);
   border-radius: 25px;
 }
 
@@ -556,11 +558,11 @@ li a:hover {
 /* get-started-frame */
 .get-started-frame {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   height: 299px;
   background-color: #1E3448;
-  padding: auto 0;
+  /* padding: auto 0; */
 }
 
 .get-started-frame svg {
@@ -578,6 +580,10 @@ li a:hover {
   font-size: 3rem;
   font-weight: 600;
   margin: 0 0 10px 0;
+}
+
+.get-started-card button:hover {
+  color: var(--white);
 }
 
 
