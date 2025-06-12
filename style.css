@@ -559,12 +559,21 @@ li a:hover {
   justify-content: space-between;
   align-items: center;
   height: 299px;
+  background-color: #1E3448;
+}
+
+.get-started-frame svg {
+  height: 299px;
+}
+
+.get-started-banner {
+  color: var(--white);
 }
 
 /* footer-frame */
 .footer-frame {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-content: center;
-  height: 100vh;
+  height: 561px;
 }
