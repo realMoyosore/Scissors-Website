@@ -565,7 +565,7 @@ li a:hover {
   justify-content: space-between;
   align-items: center;
   height: 299px;
-  background-color: #1E3448;
+  background-color: #1e3448;
   /* padding: auto 0; */
 }
 
@@ -592,14 +592,10 @@ li a:hover {
   color: var(--white);
 }
 
-
-
-
-
-
 /* footer-frame */
 .footer-frame {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   height: 561px;
@@ -607,7 +603,14 @@ li a:hover {
 
 .footer-content {
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
   justify-content: space-between;
   align-items: center;
 }
