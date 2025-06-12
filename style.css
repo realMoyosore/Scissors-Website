@@ -562,8 +562,8 @@ li a:hover {
 /* get-started-frame */
 .get-started-frame {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  justify-content: space-between;
+  align-items: center;
   height: 299px;
   background-color: #1E3448;
   /* padding: auto 0; */
@@ -578,10 +578,12 @@ li a:hover {
   text-align: center;
   padding: 40px 0;
   position: relative;
+  width: 100%;
+  max-width: 806px;
 }
 
 .get-started-card h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin: 0 0 10px 0;
 }
@@ -589,6 +591,9 @@ li a:hover {
 .get-started-card button:hover {
   color: var(--white);
 }
+
+
+
 
 
 
