@@ -623,7 +623,13 @@ li a:hover {
   gap: 30px;
 }
 
-
+.social-media-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
 
 /* .footer-text {
   display: grid;
