@@ -603,15 +603,31 @@ li a:hover {
 }
 
 .footer-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
-.footer-text {
+.footer-main {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+
+
+/* .footer-text {
   display: grid;
   grid-template-columns: repeat (4, 1fr);
   justify-content: space-between;
   align-items: center;
-}
+} */
