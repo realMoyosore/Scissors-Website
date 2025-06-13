@@ -603,7 +603,7 @@ li a:hover {
 }
 
 .footer-content {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -622,6 +622,35 @@ li a:hover {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
+.footer-grid-links h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-grid-links ul {
+  display: grid;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-grid-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-grid-links ul li a {
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.footer-note {
+      padding: 10px 0;
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+
 
 .social-media-icon {
   display: flex;
