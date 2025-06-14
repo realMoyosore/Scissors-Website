@@ -601,11 +601,11 @@ li a:hover {
 
 .footer-background-waves {
     position: relative;
-    background-color: #f9fbfd; /* Very light blue background */
+    background-color: #f9fbfd;
     overflow: hidden;
 }
 
-/* Faint wave-like background shapes */
+
 .footer-background-waves::before,
 .footer-background-waves::after {
     content: '';
@@ -640,7 +640,6 @@ li a:hover {
     z-index: 1;
 }
 
-/* Main footer content with logo and links */
 .footer-main {
     display: grid;
     grid-template-columns: 2fr 5fr;
@@ -648,7 +647,7 @@ li a:hover {
     padding-bottom: 4rem;
 }
 
-/* Logo and Social Icons Section */
+
 .footer-logo-socials .logo {
     display: flex;
     align-items: center;
@@ -676,7 +675,7 @@ li a:hover {
     opacity: 0.7;
 }
 
-/* Links Grid */
+
 .footer-links-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -710,7 +709,7 @@ li a:hover {
     text-decoration: underline;
 }
 
-/* Bottom Bar */
+
 .footer-bottom {
     padding: 1.5rem 0;
     text-align: right;
