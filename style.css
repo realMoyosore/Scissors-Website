@@ -593,7 +593,8 @@ li a:hover {
 }
 
 /* footer-frame */
-.site-footer {
+.footer-frame {
+  margin: 0;
     color: #0c1825;
     padding-top: 5rem;
 }
