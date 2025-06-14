@@ -593,7 +593,7 @@ li a:hover {
 }
 
 /* footer-frame */
-.footer-frame {
+/* .footer-frame {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
@@ -604,11 +604,11 @@ li a:hover {
 
 .footer-background {
     position: relative;
-    background-color: #f9fbfd; /* Very light blue background */
+    background-color: #f9fbfd; 
     overflow: hidden;
 }
 
-/* Faint wave-like background shapes */
+
 .footer-background::before,
 .footer-background::after {
     content: '';
@@ -695,7 +695,7 @@ li a:hover {
   justify-content: center;
   gap: 16px;
   margin-top: 30px;
-}
+} */
 
 /* .footer-text {
   display: grid;
