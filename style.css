@@ -642,7 +642,7 @@ li a:hover {
 
 .footer-main {
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     padding-bottom: 4rem;
 }
@@ -679,7 +679,7 @@ li a:hover {
 .footer-links-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 10px;
 }
 
 .footer-column h4 {
@@ -706,7 +706,7 @@ li a:hover {
 }
 
 .footer-column ul li a:hover {
-    /* text-decoration: underline; */
+ color: var(--blue);
 }
 
 
@@ -727,7 +727,7 @@ li a:hover {
 }
 
 .footer-bottom a:hover {
-    text-decoration: underline;
+    font-weight: 800;
 }
 
 
