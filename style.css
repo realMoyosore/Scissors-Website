@@ -706,7 +706,7 @@ li a:hover {
 }
 
 .footer-column ul li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
