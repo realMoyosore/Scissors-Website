@@ -1,6 +1,6 @@
 # Scissor Website
 
-A simple and efficient URL shortening web application built as part of the AltSchool Africa 1st Semester project.
+A simple and efficient URL shortening website built as part of the AltSchool Africa 1st Semester project.
 
 ## Features
 
