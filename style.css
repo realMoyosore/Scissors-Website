@@ -602,39 +602,6 @@ li a:hover {
   height: 561px;
 }
 
-.footer-background {
-    position: relative;
-    background-color: #f9fbfd; 
-    overflow: hidden;
-}
-
-
-.footer-background::before,
-.footer-background::after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.5;
-    z-index: 0;
-    background: radial-gradient(circle, hsla(205, 100%, 94%, 1) 0%, hsla(205, 100%, 94%, 0) 70%);
-}
-
-.footer-background::before {
-    width: 1000px;
-    height: 1000px;
-    left: -500px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.footer-background::after {
-    width: 800px;
-    height: 800px;
-    right: -400px;
-    bottom: -300px;
-}
-
-
 .footer-content {
   max-width: 1440px;
   margin: 0 auto;
@@ -682,12 +649,10 @@ li a:hover {
 }
 
 .footer-note {
-      padding: 10px 0;
-    text-align: right;
-    font-size: 0.9rem;
+  padding: 10px 0;
+  text-align: right;
+  font-size: 0.9rem;
 }
-
-
 
 .social-media-icon {
   display: flex;
