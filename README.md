@@ -48,4 +48,4 @@ This project is licensed for Educational purposes.
 
 ---
 
-*Developed for AltSchool Africa by Moyosore Sulola.*
+*Developed for AltSchool Africa Project by Moyosore Sulola.*
